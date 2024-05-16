@@ -117,13 +117,13 @@ public class AuditoriumTensileStructure_Test
 		WebElement CB =driver.findElement(By.xpath("(//div[@class=\"owl-item\"])[6]"));
 		CB.click();
 	}
-	@Test(priority=16,enabled=false)
+	@Test(priority=16)
 	void HomeIcon()  
 	{
 		WebElement HI =driver.findElement(By.xpath("//a[@class='home']"));
 		HI.click();
 	}
-	@Test(priority=17)
+	@Test(priority=17,enabled=false)
 	void RajTensileLogo()  
 	{
 		WebElement logo =driver.findElement(By.xpath("//section[@class='elementor-section elementor-top-section elementor-element elementor-element-256c209 elementor-section-content-middle elementor-section-height-min-height elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects animated fadeIn']//div[@class='elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2ae7f28']//a"));
