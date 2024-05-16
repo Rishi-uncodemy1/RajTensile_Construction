@@ -18,10 +18,10 @@ public class AboutUs_Test
 		driver.get("https://rajtensilestructure.com/"); 
 	}
 	@Test(priority=1)
-	void Access_ContactUs() 
+	void Access_AboutUs() 
 	{
-		WebElement ContactUs =driver.findElement(By.xpath("//li[@class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-14085\"]"));
-		ContactUs.click();
+		WebElement AboutUs =driver.findElement(By.xpath("//li[@class=\"menu-item menu-item-type-post_type menu-item-object-page menu-item-14085\"]"));
+		AboutUs.click();
 	}
 	@Test(priority=2)
 	void HomeIcon()  
