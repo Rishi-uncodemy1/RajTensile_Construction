@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T17:55:24 IST" name="Default suite" finished-at="2024-05-19T17:55:34 IST" duration-ms="9700">
+  <suite started-at="2024-06-23T07:04:27Z" name="Default suite" finished-at="2024-06-23T07:05:01Z" duration-ms="34184">
     <groups>
     </groups>
-    <test started-at="2024-05-19T17:55:24 IST" name="Default test" finished-at="2024-05-19T17:55:34 IST" duration-ms="9700">
-      <class name="CONTACTUS.Contactus">
-        <test-method is-config="true" signature="navigate()[pri:0, instance:CONTACTUS.Contactus@61c9c3fd]" started-at="2024-05-19T17:55:24 IST" name="navigate" finished-at="2024-05-19T17:55:29 IST" duration-ms="4583" status="PASS">
+    <test started-at="2024-06-23T07:04:27Z" name="Default test" finished-at="2024-06-23T07:05:01Z" duration-ms="34184">
+      <class name="rajtensileconstruction.rajtensileconstruction.aboutusTest">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:27Z" name="navigate" finished-at="2024-06-23T12:34:39Z" duration-ms="12697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigate -->
-        <test-method signature="contact()[pri:1, instance:CONTACTUS.Contactus@61c9c3fd]" started-at="2024-05-19T17:55:29 IST" name="contact" finished-at="2024-05-19T17:55:34 IST" duration-ms="5076" status="PASS">
+        <test-method signature="aboutus()[pri:1, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:39Z" name="aboutus" finished-at="2024-06-23T12:34:55Z" duration-ms="16018" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contact -->
-      </class> <!-- CONTACTUS.Contactus -->
+        </test-method> <!-- aboutus -->
+        <test-method signature="companyprof()[pri:2, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:55Z" name="companyprof" finished-at="2024-06-23T12:34:56Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- companyprof -->
+        <test-method signature="yearexp()[pri:3, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:56Z" name="yearexp" finished-at="2024-06-23T12:34:56Z" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yearexp -->
+        <test-method signature="bstmatrl()[pri:4, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:56Z" name="bstmatrl" finished-at="2024-06-23T12:34:56Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bstmatrl -->
+        <test-method signature="profstnd()[pri:5, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:56Z" name="profstnd" finished-at="2024-06-23T12:34:56Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profstnd -->
+        <test-method signature="conctus()[pri:6, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:56Z" name="conctus" finished-at="2024-06-23T12:34:58Z" duration-ms="1956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- conctus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:rajtensileconstruction.rajtensileconstruction.aboutusTest@a776e]" started-at="2024-06-23T12:34:58Z" name="close" finished-at="2024-06-23T12:35:01Z" duration-ms="2653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- rajtensileconstruction.rajtensileconstruction.aboutusTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
